@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <PackageId>LKonfig</PackageId>
+        <Version>0.1.0</Version>
+        <Authors>Vitor Koch</Authors>
+        <PackageProjectUrl>https://github.com/vitorkoch/LKonfig</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/vitorkoch/LKonfig</PackageProjectUrl>
+        <Product>LKonfig</Product>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="LKonfig.Providers" Version="0.1.2" />
+    </ItemGroup>
+</Project>
